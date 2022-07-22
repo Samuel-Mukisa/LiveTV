@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Local Channels" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Africa Channels" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_sports_basketball_24"
+            android:title="Sports Channels" />
+        <item
+            android:id="@+id/nav_intern"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="International Channels" />
+        <item
+            android:id="@+id/nav_church"
+            android:icon="@drawable/ic_baseline_church_24"
+            android:title="Religious Channels" />
+
+    </group>
+
+
+
+</menu>

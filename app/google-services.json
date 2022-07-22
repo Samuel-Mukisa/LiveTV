@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022955648803",
+    "project_id": "livetv-4ba1d",
+    "storage_bucket": "livetv-4ba1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022955648803:android:76897f3f3bb452cef3be96",
+        "android_client_info": {
+          "package_name": "com.mukisasamuel.livetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022955648803-1mprqmaio2tdeqgt3om2paq0acoat2od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD21LWJvC9BT7hzp1hFguhAsKdNg6rKtYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022955648803-1mprqmaio2tdeqgt3om2paq0acoat2od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

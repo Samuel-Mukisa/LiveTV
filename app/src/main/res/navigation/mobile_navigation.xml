@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mukisasamuel.livetv.ui.home.HomeFragment"
+        android:label="Local Channels"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mukisasamuel.livetv.Africa"
+        android:label="Africa Channels"
+        tools:layout="@layout/fragment_africa" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mukisasamuel.livetv.ui.slideshow.Sports"
+        android:label="Sports"
+        tools:layout="@layout/fragment_sports" />
+
+
+    <fragment
+        android:id="@+id/nav_church"
+        android:name="com.mukisasamuel.livetv.Religious"
+        android:label="Religious"
+        tools:layout="@layout/fragment_religious" />
+
+    <fragment
+        android:id="@+id/nav_intern"
+        android:name="com.mukisasamuel.livetv.International"
+        android:label="International Channels"
+        tools:layout="@layout/fragment_international" />
+
+    <fragment android:id="@+id/placeholder" />
+</navigation>
